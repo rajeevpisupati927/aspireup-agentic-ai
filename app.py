@@ -19,7 +19,7 @@ def search_movies(genre: str) -> str:
         "comedy": "3 Idiots, Hera Pheri, Munna Bhai M.B.B.S.",
         "action": "RRR, Vikram, Baahubali"
     }
-    return movies.get(genre.lower(), "No movies found for that genre")
+    return movies.get(genre.lower(), "I don't have a suggestion for this genre")
 
 
 @tool
